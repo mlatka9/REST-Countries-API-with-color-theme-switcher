@@ -22,7 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Home Page](https://user-images.githubusercontent.com/72691985/143426636-182d8de8-6582-4395-9c30-fa8b55b16687.png)
+![Home Page](https://user-images.githubusercontent.com/72691985/143434896-96c2ecaf-d4d5-4648-a78d-cd66a0bee0b2.png)
+
 
 ## My process
 

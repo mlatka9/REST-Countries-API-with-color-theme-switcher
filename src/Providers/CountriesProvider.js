@@ -25,7 +25,9 @@ export const CountriesProvider = ({ children }) => {
       try {
         const response = await fetch('https://restcountries.com/v3.1/all');
         const data = await response.json();
-        setCountries(data);
+        console.log(data);
+        const sorted = data.sort((a, b) => b.population - a.population);
+        setCountries(sorted);
         setState('resolved');
       } catch (err) {
         setState('error');

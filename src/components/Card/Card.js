@@ -7,13 +7,13 @@ const Card = ({ country }) => {
     capital,
     continents: [continet],
     population,
-    flags: { png },
+    flags: { svg },
   } = country;
 
   return (
     <Wrapper>
       <StyledLink to={`country/${common}`}>
-        <img src={png} alt={common} />
+        <img src={svg} alt={common} />
         <div>
           <h3>{common}</h3>
           <p>

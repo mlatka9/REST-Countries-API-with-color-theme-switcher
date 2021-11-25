@@ -17,6 +17,7 @@ export const Wrapper = styled.div`
     overflow: hidden;
     width: 100%;
     height: 180px;
+    object-fit: cover;
   }
   div {
     color: ${({ theme }) => theme.colors.white};

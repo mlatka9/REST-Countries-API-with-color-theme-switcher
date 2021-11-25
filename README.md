@@ -24,8 +24,6 @@ Users should be able to:
 
 ![Home Page](https://user-images.githubusercontent.com/72691985/143426636-182d8de8-6582-4395-9c30-fa8b55b16687.png)
 
-![Country Page](https://user-images.githubusercontent.com/72691985/143426605-0ecf0e27-a59c-40c8-9b02-b35e6e9a1593.PNG)
-
 ## My process
 
 ### Built with

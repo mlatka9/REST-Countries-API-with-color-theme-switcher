@@ -28,7 +28,7 @@ export const InputField = styled.div`
     background-color: inherit;
     border: none;
     font-weight: 600;
-    /* outline: none; */
+    outline: none;
     font-family: inherit;
     caret-color: ${({ theme }) => theme.colors.white};
     &::placeholder {

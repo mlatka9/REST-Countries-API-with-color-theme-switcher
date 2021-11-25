@@ -8,12 +8,14 @@ html{
 }
 *,*::after,*::before{
     box-sizing: inherit;
+    transition: background-color 150ms;
 } 
 body{
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
     min-height: 100vh;
+    
 }
 a, button{
     font-family: inherit;

@@ -25,7 +25,7 @@ export const InputField = styled.div`
   input {
     color: ${({ theme }) => theme.colors.white};
     width: calc(100% - 65px);
-    background-color: inherit;
+    background-color: ${({ theme }) => theme.colors.darkBlue};
     border: none;
     font-weight: 600;
     outline: none;

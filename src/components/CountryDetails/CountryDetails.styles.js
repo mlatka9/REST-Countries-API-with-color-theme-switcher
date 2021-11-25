@@ -74,11 +74,15 @@ export const StyledButton = styled.button`
   background-color: ${({ theme }) => theme.colors.darkBlue};
   border: none;
   color: ${({ theme }) => theme.colors.white};
-  padding: 14px 35px;
-  border-radius: 3px;
+  padding: 16px 35px;
+  border-radius: 5px;
   cursor: pointer;
   box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.15);
   letter-spacing: 0.5px;
   text-decoration: none;
   margin-bottom: 50px;
+  margin-left: 50px;
+  @media (max-width: 1000px) {
+    margin-left: 0;
+  }
 `;

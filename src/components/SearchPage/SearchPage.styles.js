@@ -16,12 +16,9 @@ export const CardsList = styled.div`
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(auto-fill, 320px);
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 0 auto;
   gap: 80px 30px;
-  @media (max-width: 1150px) {
-    justify-content: space-evenly;
-  }
   @media (max-width: 500px) {
     gap: 40px 30px;
   }

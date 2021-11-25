@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
     cursor: pointer;
   }
   button {
-    background-color: inherit;
+    background-color: ${({ theme }) => theme.colors.darkBlue};
     border: none;
     color: ${({ theme }) => theme.colors.white};
     cursor: pointer;

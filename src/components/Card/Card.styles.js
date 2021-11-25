@@ -9,9 +9,12 @@ export const Wrapper = styled.div`
   background-color: ${({ theme }) => theme.colors.darkBlue};
   border-radius: 5px;
   box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.15);
+  transition: transform ease-in 100ms;
+  &:hover {
+    transform: scale(1.04);
+  }
   img {
     display: block;
-    /* object-fit: cover; */
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     overflow: hidden;

@@ -18,7 +18,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/mlatka9/REST-Countries-API-with-color-theme-switcher](https://github.com/mlatka9/REST-Countries-API-with-color-theme-switcher)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://www.netlify.com/](https://blissful-keller-f90ec7.netlify.app/)
 
 ### Screenshot
 

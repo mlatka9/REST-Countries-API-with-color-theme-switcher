@@ -23,7 +23,9 @@ export const CountriesProvider = ({ children }) => {
   useEffect(() => {
     (async () => {
       try {
-        const response = await fetch('https://restcountries.com/v3.1/all');
+        const response = await fetch(
+          'https://restcountries.com/v3.1/all?fields=name,population,region,subregion,capital,flags,cca3,continents,tld,currencies,languages,borders'
+        );
         const data = await response.json();
         console.log(data);
         const sorted = data.sort((a, b) => b.population - a.population);
